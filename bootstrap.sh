@@ -10,4 +10,4 @@ if ! dpkg -s ansible > /dev/null 2>&1; then
 	fi
 fi
 
-ansible-playbook --inventory-file=hosts playbook.yaml
+ansible-playbook --inventory-file=hosts playbooks/workstation.yaml
